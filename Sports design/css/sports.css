@@ -1,0 +1,607 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 40;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/ .ttf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "BebasNeue-Bold";
+  src: url("../fonts/BebasNeue-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("../fonts/Poppins-Black.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fonts/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-BoldItalic";
+  src: url("../fonts/Poppins-BoldItalic.ttf");
+}
+/* .container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+    } */
+/* h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    } */
+/* li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    }
+    li span {
+    display: block;
+    font-size: 4.5rem;
+    }
+    .emoji {
+    display: none;
+    padding: 1rem;
+    }
+    .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+    } */
+/* @media all and (max-width: 768px) {
+    h1 {
+    font-size: calc(1.5rem * var(--smaller));
+    }
+    li {
+    font-size: calc(1.125rem * var(--smaller));
+    }
+    li span {
+    font-size: calc(3.375rem * var(--smaller));
+    }
+    } */
+/* .couter h1{
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    
+     font-size: 1.5rem;
+     font-weight: 900;
+    
+}
+.couter{
+    font-family: "Montserrat-SemiBold";
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+} */
+.search-container {
+  background-color: #192835;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.8s;
+  color: white;
+  /*box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    inset -7px -7px 10px 0px rgba(0,0,0,.1),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+   text-shadow:  0px 0px 6px rgba(255,255,255,.3),
+              -4px -4px 6px rgba(116, 125, 136, .2);
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);*/
+  /* box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2); */
+}
+
+.search-container:hover > .search-input {
+  width: 80px;
+  border-bottom: 2px solid white;
+}
+
+.search-container .search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 0px;
+
+  transition: 0.8s;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+
+.search-container .search-btn .fas {
+  color: white;
+}
+
+/* @keyframes hoverShake {
+  0% {transform: skew(0deg,0deg);}
+  25% {transform: skew(5deg, 5deg);}
+  75% {transform: skew(-5deg, -5deg);}
+  100% {transform: skew(0deg,0deg);}
+} */
+
+.search-container:hover {
+  animation: hoverShake 0.15s linear 3;
+}
+/* .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  } */
+body::-webkit-scrollbar {
+  background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#192835, #213fd1, #192835);
+  border-radius: 20px;
+}
+h1 {
+  font-family: "BebasNeue-Bold";
+  /* font-size: 1.2rem; */
+  color: white;
+}
+h2 {
+  font-family: "BebasNeue-Bold";
+  color: #0d2e57;
+}
+h3 {
+  font-family: "BebasNeue-Bold";
+}
+h4 {
+  font-family: "Poppins-Regular";
+  color: #3753da;
+}
+h5 {
+  font-family: "Montserrat-Regular";
+}
+h6,
+.dollar {
+  font-family: "Poppins-SemiBold";
+}
+p {
+  font-family: "Montserrat-Light";
+  color: #7c7c7c;
+  font-weight: 600;
+}
+.btn-click {
+  font-family: "Montserrat-SemiBold";
+  color: #3753da;
+}
+header {
+  background-image: url("../images/headerbgimg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  /* padding-bottom: 150px; */
+}
+.portpro {
+  background: transparent;
+  background-color: #192835;
+  color: white;
+}
+
+.nav-link {
+  font-family: "Poppins-SemiBold";
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.nav-link:hover {
+  color: rgb(233, 230, 230);
+  text-decoration: underline;
+}
+.nav-link:visited {
+  color: white;
+}
+.fa-bars {
+  color: white;
+  font-size: 2.5rem;
+}
+.btn-searchbar {
+  color: white;
+}
+.btn-searchbar:hover {
+  color: white;
+}
+.freeshiping {
+  padding: 20px;
+  text-align: center;
+  color: #8a8a8a;
+  border-right: 1px solid #c7c7c7;
+}
+.freeshiping img {
+  font-size: 4.1rem;
+}
+.manfootballimg {
+  background-image: url("../images/manfootballimg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.support-svg {
+  margin-top: 50px;
+  color: #5c5c5c;
+  fill: #5c5c5c;
+}
+
+.container-fluid h3 {
+  color: white;
+  font-family: "Poppins-Black";
+}
+nav a i {
+  color: white;
+  font-size: 1.3rem;
+}
+.nike {
+  font-family: "Poppins-Bold";
+  text-transform: uppercase;
+  color: white;
+  font-size: 7.5rem;
+  margin-left: 50px;
+  margin-top: 180px;
+}
+.sig-nup {
+  font-family: "Montserrat-SemiBold";
+  color: white;
+  letter-spacing: 6px;
+  /* margin-left: 2px; */
+  /* margin-top: -30px; */
+  /* padding-right: 50px; */
+}
+.shoes {
+  font-family: "Poppins-Bold";
+  text-transform: uppercase;
+  color: white;
+  font-size: 7.5rem;
+  margin-top: -60px;
+}
+.btn-shop {
+  padding: 5px 10px;
+  background-color: #3954d9;
+  color: white;
+  margin-top: 20px;
+  margin-left: 150px;
+  /* margin-right: 100px; */
+  margin-bottom: 180px;
+}
+.btn-shop:hover {
+  background-color: #213fd1;
+  color: white;
+}
+.btn-shop2 {
+  padding: 5px 10px;
+  background-color: #3954d9;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 100px;
+
+  /* margin-right: 100px; */
+}
+.btn-shop2:hover {
+  background-color: #213fd1;
+  color: white;
+}
+/* container background */
+.containerbgclr {
+  background-color: white;
+  margin-top: -60px;
+  box-shadow: 25px 0px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+  /* padding: 50px; */
+  position: relative;
+
+  z-index: 1;
+  margin-bottom: -60px;
+}
+
+.fa-plane-up,
+.fa-clock {
+  color: #5c5c5c;
+  font-size: 2.1rem;
+  padding-top: 50px;
+}
+.panthom {
+  background-color: #f2f0f0;
+  text-align: center;
+}
+.panthom span {
+  font-family: "Montserrat-Bold";
+  color: #213fd1;
+  font-size: 2.5rem;
+}
+.panthom del {
+  font-family: "Montserrat-Bold";
+}
+.offermonth {
+  padding-top: 100px;
+  color: #7c7c7c;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.grayshoes {
+  padding: 20px;
+}
+.running {
+  background-color: #232323;
+  color: white;
+  padding: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  /* padding-left: 30px; */
+}
+.running h3 {
+  font-size: 3.1rem;
+}
+.btn-click2 {
+  padding: 5px 10px;
+  background-color: #3954d9;
+  color: white;
+  margin-top: 20px;
+}
+.bordershoes {
+  /* border-right: 1px solid #c7c7c7 ; */
+  /* border-bottom: 1px solid #c7c7c7 ; */
+  padding: 20px;
+  /* height: 270px; */
+}
+.supportboeder {
+  border-top: 1px solid #c7c7c7;
+}
+.Zoom {
+  margin-top: -10px;
+}
+.runeat {
+  /* padding-top: 70px;
+    padding-bottom: 70px; */
+  padding: 40px;
+  color: white;
+  text-align: left;
+}
+.girlimg {
+  background-image: url("../images/runeatimg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.glasses {
+  padding: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top: 1px solid #c7c7c7;
+  /* border-bottom: 1px solid #c7c7c7 ; */
+  /* padding-right: 10px; */
+}
+.multigreyshoes {
+  padding-top: 50px;
+}
+.dollar {
+  color: #213fd1;
+  font-weight: bolder;
+}
+.img1 {
+  background-image: url("../images/img1.jpg");
+  background-size: cover;
+  padding: 150px;
+}
+.harly {
+  padding: 50px;
+  border-right: 1px solid #7c7c7c;
+  /* border-bottom: 1px solid #7c7c7c; */
+}
+.adidas {
+  padding-top: 50px;
+  border-right: 1px solid #7c7c7c;
+  margin: 0px;
+}
+hr {
+  margin: 0px;
+}
+.logoborder {
+  border-right: 1px solid #7c7c7c;
+  padding: 50px;
+}
+.shoesborder {
+  border-right: 1px solid #7c7c7c;
+}
+
+/* footer */
+footer {
+  background-image: url("../images/footerbg.jpg");
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  /* margin-top: 10px; */
+  line-height: 10px;
+}
+.searchhere {
+  /* padding: 5px 80px; */
+  padding: 5px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  background-color: #2f2f2f;
+  border-radius: 20px;
+  color: white;
+}
+.bgclr {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 80px;
+}
+.btn-success {
+  background-color: #3954d9;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+/* .wpmargin{
+    
+    clear: left;
+} */
+/* .shoos{
+    text-align: center;
+} */
+@media screen and (max-width: 992px) {
+  .navbar-toggler {
+    color: white;
+  }
+
+  .logoborder {
+    border-bottom: 1px solid #7c7c7c;
+  }
+
+  /* .navbar-toggler-icon{
+        color: white;
+        background-color: white;
+    } */
+
+  .shoes {
+    font-size: 5rem;
+    padding: 10px 0px;
+    text-align: center;
+    margin-right: 80px;
+  }
+  .nike {
+    font-size: 5rem;
+    padding: 10px 0px;
+  }
+  h2,
+  p {
+    text-align: center;
+  }
+  footer li h4,
+  a {
+    color: white;
+    text-decoration: none;
+    /* margin-top: 10px; */
+    /* line-height: 10px; */
+    text-align: center;
+  }
+  footer a {
+    align-items: center;
+    margin-left: 0px auto;
+  }
+  ul {
+    padding-inline-start: 0px;
+  }
+  .searchhere {
+    text-align: center;
+    margin-left: 30px;
+  }
+  img {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .btn-shop {
+    padding: 5px 10px;
+    background-color: #3954d9;
+    color: white;
+    /* margin-top: 20px;
+   margin-right: 100px; */
+    /* margin-right: 100px; */
+    /* margin-bottom: 180px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer ul li h4 {
+    color: #213fd1;
+  }
+  .tr {
+    margin-top: 50px;
+  }
+
+  .socialicon {
+    margin-right: 10px;
+  }
+  .shoos {
+    text-align: center;
+  }
+  .freeshiping {
+    border-bottom: 1px solid #7c7c7c;
+  }
+  .shoesborder {
+    border-bottom: 1px solid #7c7c7c;
+  }
+}
+@media screen and (max-width: 380px) {
+  .socialicon {
+    margin: none;
+  }
+  .shoos {
+    text-align: center;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
